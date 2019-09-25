@@ -1,6 +1,10 @@
 import Foundation
 
 func expandTheNumber(_ number: Int) -> [Int] {
+    let theNumber = String(number)
+    var digits = theNumber.compactMap{Int(String($0))}
+    
+        return digits
     
 }
 
